@@ -64,6 +64,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>movie-api-app</finalName>
 	</build>
 
 </project>
+

@@ -1,8 +1,4 @@
-FROM maven:latest AS build
-COPY . .
-RUN mvn clean package -DskipTests
-
-FROM openjdk:20-jdk
-COPY --from=build /target/MovieAPI-0.0.1-SNAPSHOT.jar app.jar
-EXPOSE 8080 
-ENTRYPOINT [ "java", "-jar", "app.jar" ]
+FROM eclipse-temurin:20
+EXPOSE 8080
+ADD target/movie-api-app.jar movie-api-app.jar
+ENTRYPOINT ["java", "-jar", "/movie-api-app.jar"]
