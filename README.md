@@ -1,3 +1,12 @@
-# MovieApiBackend
-Java Spring Boot api that makes calls to a MongoDB database. React app uses the api to access data about movies including poster images and trailers. Reviews about the movies can also be written to the database.
+# Movie API
 
+This application is a Spring Boot REST API which returns data about a set of 20 movies
+
+## Usage
+
+
+```bash
+The Json Data can be retrived from this URL:
+
+https://movie-api-og6u.onrender.com/api/v1/movies
+```
