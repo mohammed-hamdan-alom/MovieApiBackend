@@ -1,0 +1,11 @@
+com/projects/MovieAPI/ReviewMicroservice/ReviewRepository.class
+com/projects/MovieAPI/MovieMicroservice/MovieService.class
+com/projects/MovieAPI/ReviewMicroservice/ReviewController.class
+com/projects/MovieAPI/MovieMicroservice/Movie.class
+com/projects/MovieAPI/ReviewMicroservice/ReviewService.class
+com/projects/MovieAPI/CorsConfig$1.class
+com/projects/MovieAPI/MovieApiApplication.class
+com/projects/MovieAPI/MovieMicroservice/MovieController.class
+com/projects/MovieAPI/MovieMicroservice/MovieRepository.class
+com/projects/MovieAPI/CorsConfig.class
+com/projects/MovieAPI/ReviewMicroservice/Review.class
